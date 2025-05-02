@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect
 import csv
 
-app = Flask(__name__)
+app = Flask(app1.py)
 FILENAME = 'patients.csv'
 
 @app.route('/')
