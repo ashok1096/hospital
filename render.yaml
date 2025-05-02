@@ -3,4 +3,4 @@ services:
     name: hospital-patient-app
     env: python
     buildCommand: ""
-    startCommand: python app.py
+    startCommand: gunicorn app1:app
